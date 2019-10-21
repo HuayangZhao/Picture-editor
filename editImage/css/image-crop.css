@@ -1,0 +1,208 @@
+/*选中框start*/
+.rotate{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    margin-left: -8.5px;
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    color: #aeaeae;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.rotate::after{
+    content: '';
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+}
+.rotate i{
+    font-size: 14px;
+    color: #828282;
+}
+.mr_ng-star-inserted{
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    cursor: crosshair;
+    pointer-events: auto;
+    right: -3px;
+    top: 50%;
+    margin-top: -10px;
+    width: 6px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.ml_ng-star-inserted{
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    cursor: crosshair;
+    pointer-events: auto;
+    left: -3px;
+    top: 50%;
+    margin-top: -10px;
+    width: 6px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.mt_ng-star-inserted{
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    cursor: crosshair;
+    pointer-events: auto;
+    left: 50%;
+    top: -3px;
+    margin-left: -8px;
+    width: 20px;
+    height: 6px;
+    border-radius: 5px;
+}
+
+.mb_ng-star-inserted{
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    cursor: crosshair;
+    pointer-events: auto;
+    left: 50%;
+    bottom: -3px;
+    margin-left: -8px;
+    width: 20px;
+    height: 6px;
+    border-radius: 5px;
+}
+
+
+.e-border{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(127,127,127,.3);
+    box-sizing: border-box;
+    cursor:move;
+}
+.ng-star-inserted{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    cursor: crosshair;
+    pointer-events: auto;
+}
+.ng-fx-inserted::after{
+    content: '';
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+}
+.ng-star-inserted::after{
+    content: '';
+    position: absolute;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+}
+.rotate:hover i{
+    color: #25AAD6;
+}
+
+.corner:hover{
+    color: #25AAD6;
+    background-color: #25AAD6;
+}
+
+.tl{
+    left: -5px;
+    top: -5px;
+}
+.tr{
+    right: -5px;
+    top: -5px;
+}
+
+.bl{
+    left: -5px;
+    bottom: -5px;
+}
+.br{
+    right: -5px;
+    bottom: -5px;
+}
+/*end*/
+
+/*遮罩层css*/
+.t-guider{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 30;
+}
+
+
+
+.t-guider .overflow-stage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*遮罩层end*/
+
+/*双击选择文字*/
+.cursor_move_text{
+    display: none;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background:rgba(0,0,0, 0.8)!important;
+    /*filter:Alpha(opacity=10);*/
+    /*background:#25AAD6;*/
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 1px 5px;
+    z-index: 999999;
+    color:#FFFFFF;
+}
+
+.new_wz::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.cursor_move_con{
+    position:relative;
+    width:fit-content;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+}

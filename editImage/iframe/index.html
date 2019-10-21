@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/image-crop.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/img.css"/>
+</head>
+<body style="background: #ECECEC;">
+<div id="uploader" class="wu-example" style="display: block;">
+    <div class="queueList ">
+        <ul class="filelist"></ul>
+    </div>
+</div>
+<div class="label_main" style="display: none;overflow: hidden;">
+    <div class="label_main_div">
+        <span id="text_span" style="visibility: hidden;font-size: 20px;letter-spacing:0px">文字水印</span>
+        <div id="label_main_hb" lay-data="img_bj" scale="1" oldscale="1" class="label_main_touyin label_main_hb"
+             style="transform: scale(1); top: 206px; left: 567.5px; width:400px; height: 200px;z-index:5;"
+             width="400"
+             height="200">
+            <div id="svg_div" rotate="0" style="width: 100%;height: 100%;">
+                <svg id="svg_now" xl="1" xb="1" style="background:rgba(255, 255, 255,0);border-radius:0px;transform:scale(1, 1);transform-origin:50% 50% 0;" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    <defs>
+                        <pattern id="pattern-image" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+                            <image xlink:href="" x="0" y="0" width="50" height="50"></image>
+                        </pattern>
+                        <clipPath id="c-two-grap">
+                            <rect x="0" y="0" width="50" height="50"/>
+                        </clipPath>
+                    </defs>
+
+                    <image transform="rotate(0,0,0)" clip-path="" x="0" y="0" stroke='red' stroke-width='10' id="ytimg"
+                           filter="" class_id="img_bj" width="500"
+                           height="758" preserveAspectRatio="none"
+                           xlink:href="" fill-rule="inherit"></image>
+                    <line style="" x1="0" x2="319" y1="0" y2="0"></line>
+                    <rect style="transform: rotate(10deg);transform-origin: 50% 50% 0;" class_id="img_bj" x="0"
+                          y="0" width="0" height="0" fill="" fill-opacity="1"/>
+
+                    <line id="line-top" x1="0" y1="0" x2="319" y2="0"
+                          style="stroke:#25AAD6;stroke-width:0;stroke-dasharray"/>
+
+                    <line id="line-left" x1="0" y1="0" x2="0" y2="213"
+                          style="stroke:#25AAD6;stroke-width:0;stroke-dasharray"/>
+
+                    <line id="line-right" x1="0" y1="213" x2="319" y2="213"
+                          style="stroke:#25AAD6;stroke-width:0;stroke-dasharray"/>
+
+                    <line id="line-bottom" x1="319" y1="0" x2="319" y2="213"
+                          style="stroke:#25AAD6;stroke-width:0;stroke-dasharray"/>
+
+
+                </svg>
+
+
+            </div>
+
+            <div id="freeRotate" bl="1" value="1" style="position: absolute;top:0;left:0;width: 384px;height: 384px;background-color:rgba(255,255,255,0);display: none;">
+                <div rotate="0" id="rselect_style"
+                     style="z-index:9999999;position:absolute;left: 50px;top: 50px;width: 200px;height: 100px;">
+                    <div class="e-border"></div><!---->
+                    <div class="rotate"><i class="iconfont">&#xe64a;</i></div>
+
+                    <span class="corner tl ng-star-inserted" draggable="true" style="cursor: nwse-resize;"></span>
+                    <!---->
+
+                    <span class="corner tr ng-star-inserted" draggable="true" style="cursor: nesw-resize;"></span>
+                    <!---->
+
+                    <span class="corner mr_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ew-resize;"></span><!---->
+
+                    <span class="corner ml_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ew-resize;"></span><!---->
+
+                    <span class="corner mt_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ns-resize;"></span><!---->
+
+                    <span class="corner mb_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ns-resize;"></span><!---->
+
+                    <span class="corner bl ng-star-inserted" draggable="true" style="cursor: nesw-resize;"></span>
+                    <!---->
+
+                    <span class="corner br ng-star-inserted" draggable="true" style="cursor: nwse-resize;"></span>
+                    <!---->
+                </div>
+
+
+
+                <div>
+                    <div class="t-guider">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" class="overflow-stage"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <mask id="stage-mask-rotate">
+                                    <rect id="tGuiderRect" fill="#fff" height="384" width="384"></rect>
+                                    <rect id="tGuider" fill="#000"
+                                          style="width: 200px; height: 100px; x: 50px; y: 50px;"></rect>
+                                </mask>
+                            </defs>
+                            <rect height="100%" mask="url(#stage-mask-rotate)" opacity="0.3"
+                                  shape-rendering="optimizeSpeed" width="100%" fill="#000"></rect>
+
+                        </svg>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div id="imgCjk" style="display: none;">
+
+                <div rotate="0" id="select_style"
+                     style="background-color: rgba(0,0,0,.5);z-index:9999999;position:absolute;left: 50px;top: 50px;width: 200px;height: 100px;">
+
+
+                    <div class="e-border"></div><!---->
+
+
+                    <div class="rotate"><i class="iconfont">&#xe64a;</i></div>
+
+
+
+                    <span class="corner tl ng-star-inserted" draggable="true" style="cursor: nwse-resize;"></span>
+                    <!---->
+
+                    <span class="corner tr ng-star-inserted" draggable="true" style="cursor: nesw-resize;"></span>
+                    <!---->
+
+                    <span class="corner mr_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ew-resize;"></span><!---->
+
+                    <span class="corner ml_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ew-resize;"></span><!---->
+
+                    <span class="corner mt_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ns-resize;"></span><!---->
+
+                    <span class="corner mb_ng-star-inserted ng-fx-inserted" draggable="true"
+                          style="cursor: ns-resize;"></span><!---->
+
+                    <span class="corner bl ng-star-inserted" draggable="true" style="cursor: nesw-resize;"></span>
+                    <!---->
+
+                    <span class="corner br ng-star-inserted" draggable="true" style="cursor: nwse-resize;"></span>
+                    <!---->
+                </div>
+
+
+
+                <div>
+                    <div class="t-guider">
+                        <svg xmlns:xlink="http://www.w3.org/1999/xlink" class="overflow-stage"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <mask id="stage-mask">
+                                    <rect id="tGuiderRect" fill="#fff" height="213" width="319"></rect>
+                                    <rect id="tGuider" fill="#000"
+                                          style="width: 200px; height: 100px; x: 50px; y: 50px;"></rect>
+                                </mask>
+                            </defs>
+                            <rect height="100%" mask="url(#stage-mask)" opacity="0.7"
+                                  shape-rendering="optimizeSpeed" width="100%" fill="#000"></rect>
+
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="t-stage-tool" style="z-index: 9999999;">
+            <div onclick="bqMoveZoom(this)" onmouseover="bqover(this)" onmouseout="bqout(this)" class="icon-item" content="放大" placement="zoom_in">
+                <i class="iconfont">&#xe6c5;</i>
+            </div>
+            <div onclick="bqMoveZoom(this)" onmouseover="bqover(this)" onmouseout="bqout(this)" class="icon-item" content="缩小" placement="zoom_out">
+                <i class="iconfont">&#xe69f;</i>
+            </div>
+            <div  onclick="bqMoveZoom(this)" onmouseover="bqover(this)" onmouseout="bqout(this)" class="icon-item" content="缩放至满屏" placement="zoom_sf">
+                <i class="iconfont">&#xe69a;</i>
+            </div>
+            <!--<div onclick="bqMoveZoom(this)" onmouseover="bqover(this)" onmouseout="bqout(this)" class="icon-item" content="缩放至原始尺寸" placement="zoom_ys">-->
+                <!--<i class="iconfont">&#xe889;</i>-->
+            <!--</div>-->
+        </div>
+        <div class="t-stage-tool_bl" style="display: none;">100%</div>
+    </div>
+    <div style="visibility: hidden;" id="uploadImg"></div>
+</div>
+<div id="morePicHandle" value="" style="display: none;">
+</div>
+<div class="cursor_move_text" style="left: 0px; top: 0px;display: none;">
+    <div class="cursor_move_con" id="cursor_move_w"></div>
+    <div class="cursor_move_con" id="cursor_move_h"></div>
+</div>
+<input type="hidden" id="isUpload" value="0" lay-qiqan="0">
+<input type="file" id="shangchauntupoian" accept="image/png, image/jpeg,image/jpg" style="display: none">
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+    var tem_user = "";
+    var windowImgId = 0; //图片ID
+    var $imgfun = 'size';
+</script>
+<script type="text/javascript" src="../layui/layui.js"></script>
+<script type="text/javascript" src="../layer/layer.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.min.js"></script>
+<!--图片旋转裁剪-->
+<script type="text/javascript" src="../js/image-rotate.js"></script>
+<!--图片裁剪-->
+<script type="text/javascript" src="../js/image-crop.js"></script>
+<script type="text/javascript" src="../js/extend-webuploader.js"></script>
+<!--公共方法-->
+<script type="text/javascript" src="../js/image-yasuo-qd.js"></script>
+</body>
+</html>

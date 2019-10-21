@@ -1,0 +1,574 @@
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+/*其他浏览器*/
+::-webkit-scrollbar {
+    width:0px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset006pxrgba(0,0,0,1);
+    border-radius:0px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius:0px;
+    background:rgba(0,0,0,1);
+    -webkit-box-shadow:inset006pxrgba(0,0,0,1);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background:rgba(255,0,0,1);
+}
+
+
+#uploader .filelist li p#img-tishi{
+    margin: auto;
+    margin-left: -24px;
+    margin-top: 110px;
+    font-size: 12px;
+}
+
+#uploader .material {
+    padding-left: 10px;
+}
+
+#lightbox {
+    top: 10px !important;
+}
+/*新建画布*/
+/*添加图片*/
+#filePicker3{
+    font-size: 18px;
+    background: #00b7ee;
+    line-height: 44px;
+    width: 145px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.addCanvas{
+    font-size: 18px;
+    background: #00b7ee;
+    border-radius: 3px;
+    line-height: 44px;
+    width: 168px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.addCanvas:hover{
+    background: #00a2d4;
+}
+.material {
+    width: 100%;
+    min-width: 1070px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 2px;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.material li {
+    position: relative;
+    list-style: none;
+    width: 220px;
+}
+
+/*.material li .default:hover {*/
+/*background: #e0f3fd;*/
+/*}*/
+
+.material li.checked {
+    background: #FFF;
+}
+
+/*.material li.checked:hover {*/
+/*background: red;*/
+/*}*/
+
+.material li .img {
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 36px 7px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.material li .women img:hover{
+    box-shadow: 2px 2px 4px rgb(142, 142, 142);
+}
+
+/*  .material li.default label{
+      background: rgba(0,160,223,0);
+  }*/
+.material li .masked {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.material li .masked .checkbox {
+    display: none;
+}
+
+.material li:hover .masked .checkbox + label {
+    display: inline-block;
+}
+
+.material li .masked .checkbox + label {
+    padding: 0px !important;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    width: 20px;
+    height: 20px;
+    /*display: inline-block;*/
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.material li .masked .checkbox + label:hover {
+    border: 1px solid #25AAD6;
+}
+
+.material li.checked .masked .checkbox + label {
+    display: inline-block;
+}
+
+.material li .masked .checkbox:checked + label {
+    background-color: #ececec;
+}
+
+.material li .masked .checkbox:checked + label:after {
+    content: "\2714";
+    color:#25AAD6 ;
+}
+
+.material li .women {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.material li .women img {
+    display: block;
+    max-width: 100%;
+    max-height: 182px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+}
+
+.material li .describe {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.material li .describe .template-title {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    color: #2e2e2e;
+    line-height: 1;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.material li p {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px !important;
+    font-size: 12px;
+    color: #9e9e9e;
+    height: 12px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.material li p span.size {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+.material li p span.wh {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+.material li .diandian {
+    position: absolute;
+    bottom: 54px;
+    width: 30px;
+    height: 14px;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#uploader .material div.file-panel {
+    position: absolute;
+    height: 35px;
+    /*background-color: #26c2f1;*/
+    /*opacity: 0.6;*/
+    width: 50%;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 300;
+}
+
+#uploader .material div.file-panel span {
+    width: 24px;
+    height: 24px;
+    display: inline;
+    float: right;
+
+    /*text-indent: -9999px;*/
+    /*overflow: hidden;*/
+    /*background: url('../images/icons.png') no-repeat;*/
+    margin: 5px 1px 1px;
+    cursor: pointer;
+}
+
+
+#uploader .material div.file-panel span i{
+    color: #8c8b8b;
+    font-size: 20px;
+}
+
+#uploader .material div.file-panel span i:hover{
+    color: red;
+}
+
+#uploader .material div.file-panel span.yulan {
+    background: url("../images/yulan_defount.png");
+    margin: 1px 5px 1px;
+}
+
+#uploader .material div.file-panel span.yulan:hover {
+    background: url("../images/yulan_ckeck.png");
+    margin: 2px 5px 1px;
+}
+
+#uploader .material div.file-panel span.rotateLeft {
+    background-position: 0 -24px;
+}
+
+#uploader .material div.file-panel span.rotateLeft:hover {
+    background-position: 0 0;
+}
+
+#uploader .material div.file-panel span.rotateRight {
+    background-position: -24px -24px;
+}
+
+#uploader .material div.file-panel span.rotateRight:hover {
+    background-position: -24px 0;
+}
+
+#uploader .material div.file-panel span.cancel {
+    background-position: -48px -24px;
+}
+
+#uploader .material div.file-panel span.cancel:hover {
+    background-position: -48px 0;
+}
+
+.footer-inserted {
+    position: fixed;
+    bottom: 80px;
+    height: 30px;
+    width: 100%;
+}
+
+.choosebox {
+    margin: 0 auto;
+    background: #25aad6;
+    height: 30px;
+    line-height: 30px;
+    width: 300px;
+}
+
+.choosebox p {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.choosebox p .ckecked_num {
+    color: red;
+}
+
+.check {
+    cursor: pointer;
+}
+
+.label_main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+
+.label_main_div {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+
+.label_right_div {
+    position: absolute;
+    width: 145px;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
+    text-align: center;
+    top: 8px;
+    right: 0px;
+    background: #FFFFFF;
+    z-index: 99999;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+
+.label_right_div .page-list {
+    /*padding: 5px;*/
+    margin: 5px;
+}
+
+.label_right_div .page-item {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.label_right_div .page-item .thumb {
+    width: 128px;
+    height: 85px;
+    text-align: center;
+    line-height: 85px;
+}
+
+.label_right_div .page-item .thumb img {
+    max-height: 85px;
+    max-width: 100%;
+    pointer-events: none;
+}
+
+.outer-container, .content {
+    width: 138px;
+    height: 100px;
+}
+
+.outer-container {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.inner-container {
+    position: absolute;
+    left: 0;
+}
+
+/* for Chrome */
+.inner-container::-webkit-scrollbar {
+    display: none;
+}
+
+.label_right_div .footer-btn {
+    margin-top: 5px;
+}
+/*比例框css*/
+
+.t-stage-tool_bl{
+    position: fixed;
+    display: flex;
+    left: 45%;
+    width: auto;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    bottom: 70px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #676464;
+    color: #FFFFFF;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+    z-index: 50;
+}
+/*操作框*/
+.t-stage-tool{
+    position: fixed;
+    display: flex;
+    left: 45%;
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    bottom: 15px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+    z-index: 20;
+}
+
+.t-stage-tool .icon-item{
+    flex: 1;
+    text-align: center;
+    color: #7a7a7a;
+    transition: .2s;
+    cursor: pointer;
+    border-right: 1px solid #f1f1f1;
+}
+
+
+.t-stage-tool .icon-item:hover{
+    background: #CCCCCC;
+}
+.t-stage-tool .icon-item i{
+    font-size: 20px;
+}
+.bq_move{
+    position: fixed;
+    bottom: 60px;
+    font-size: 14px;
+    width: auto;
+    height: 30px;
+    line-height: 20px;
+    border: 1px solid #d0cece;
+    padding: 4px 6px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+    border-radius: 3px;
+}
+.bottom {
+    position: relative;
+    left: -60%;
+    top: 21px;
+    z-index: 2;
+}
+
+.bottom-arrow1,
+.bottom-arrow2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    /*兼容ie8-*/
+    border-bottom: 5px transparent dashed;
+    border-left: 5px transparent dashed;
+    border-right: 5px transparent dashed;
+    border-top: 5px transparent red;
+    overflow: hidden;
+}
+
+.bottom-arrow1 {
+    top: 4px;
+    border-top: 7px #d0cece solid;
+}
+
+.bottom-arrow2 {
+    border-top: 10px white solid;
+}
+/*操作框end*/
+#label_main_hb{
+    pointer-events: auto;
+    position: absolute;
+}
+#label_main_hb svg:hover{
+    cursor:url('https://www.yasuotu.com/images/tuo.png'),move;
+}
+
+.label_right_div .editing{
+    position: relative;
+    width: 100%;
+    line-height: 85px;
+    height: 85px;
+    margin-bottom: -85px;
+    top: -85px;
+    background-color: rgba(0,161,235,.7);
+    color: #fff;
+    pointer-events: none;
+    font-size: 16px;
+}
+
+.label_right_div .layui-btn{
+    background-color: #25AAD6;
+}
+
+#label_right_div_ul .page-item:hover > .imgDelRight{
+    opacity: 1;
+    transition: all .5s linear;
+}
+
+#label_right_div_ul .imgDelRight{
+    opacity: 0;
+    left: 98px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all .5s linear;
+    background: rgb(204, 204, 204);
+    position: relative;
+    top: -85px;
+    margin-bottom: -30px;
+    z-index: 9999999;
+}
+
+#label_right_div_ul .imgDelRight i:hover{
+    color: red;
+}
+
+
+#label_right_div_ul .imgDelRight i{
+    font-size: 20px;
+}
+
+/*操作框背景*/
