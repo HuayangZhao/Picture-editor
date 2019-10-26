@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b63e4125-490f-4de7-a4d2-536557a28f47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/H-ui.admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/colorStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/colpick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/iconfont.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/image-crop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.range.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ztstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iframe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/H-ui.admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/H-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/colpick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/extend-webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/html2canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/image-crop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/image-pro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/image-rotate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/image-yasuo-qd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/image-yasuo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.uploadView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer/skin/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/default/icon_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin/default/skin.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btn-compres-dispose</find>
+      <find>tianjiashuiyin</find>
+      <find>isMoreHandleImg</find>
+      <find>imgRight</find>
+      <find>imgretreat</find>
+      <find>ajax_uploads</find>
+      <find>from_shuiyin_fx</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/image-yasuo.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/js/extend-webuploader.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="380" />
+    <option name="y" value="22" />
+    <option name="width" value="967" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="editImage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="editImage" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Picture-editor\Picture-editor\editImage\layer\skin\default" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b63e4125-490f-4de7-a4d2-536557a28f47" name="Default Changelist" comment="" />
+      <created>1571706218329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571706218329</updated>
+      <workItem from="1571706220817" duration="7524000" />
+      <workItem from="1571829796007" duration="748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8272000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.117492095" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iframe/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="190" column="5" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11370">
+          <caret line="379" column="17" selection-start-line="379" selection-start-column="17" selection-end-line="379" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/image-yasuo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/extend-webuploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!block;n#fileQueue#0" />
+            <element signature="e#1626#2458#0" />
+            <element signature="n#!!block;n#addFile#0" />
+            <element signature="n#!!block;n#setDragEvent#0" />
+            <element signature="e#5018#5141#0" />
+            <element signature="e#5288#5453#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
